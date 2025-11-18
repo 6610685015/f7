@@ -1,0 +1,8 @@
+services:
+  f7:
+    image: f7
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5000:10000
